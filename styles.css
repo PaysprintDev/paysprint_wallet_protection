@@ -62,11 +62,12 @@ body {
     section.head {
         padding-top: 7rem !important;
         display: flex;
+        justify-content: space-between;
+        align-items: center;
         gap: 70px;
         padding: 10px 0px;
         width: 100%;
         background-color: #000;
-        justify-content: space-between;
         div.elements {
             color: #fff;
             padding: 30px 40px;
@@ -76,32 +77,39 @@ body {
             justify-content: space-between;
             gap: 10px;
             h2 {
-                font: 400 64px Nunito Sans;
+                font: 400 50px Nunito Sans;
                 span {
                     color: #FFB800;
                     font-weight: bold;
                     font-family: Abril Fatface;
                 }
             }
-            p {
-                color: #FFB800;
-                font: 400 28px Nunito Sans;
-                font-family: sans-serif;
-            }
             h6 {
-                font-size: 28px;
+                font-size: 20px;
                 font-weight: 400;
                 font-family: sans-serif;
+                color: #FFFFFE;
             }
             button {
                 align-self: flex-start;
-                background-color: #FFB800;
-                border-radius: 10px;
-                border: none;
-                padding: 20px 65px;
+                border: 1px solid #d2d2d2;
+                border-radius: 5px;
+                padding: 20px 35px;
+                background-color: unset;
+                color: #2A91A2;
                 font-weight: bold;
                 font-size: 20px;
                 margin-top: 10px;
+                cursor: pointer;
+            }
+            button:hover {
+                border: unset;
+                padding: 20px 35px;
+                background-color: #2A91A2;
+                color: #fff;
+                font-size: 18px;
+                margin-top: 10px;
+                margin-left: 10px;
             }
         }
         img.grp {
