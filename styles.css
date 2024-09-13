@@ -120,7 +120,10 @@ body {
         }
     }
 
-    
+    section.what-and-who {
+        padding: 50px 60px;
+        background-image: url('/Images/noise_texture_bg.png');
+    }
 
     footer {
         padding: 60px 65px;
