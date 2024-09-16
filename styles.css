@@ -104,11 +104,11 @@ body {
             }
             button:hover {
                 border: unset;
-                padding: 20px 35px;
+                /* padding: 20px 35px; */
                 background-color: #2A91A2;
                 color: #fff;
-                font-size: 18px;
-                margin-top: 10px;
+                font-size: 19px;
+                margin-right: 10px;
                 margin-left: 10px;
             }
         }
@@ -178,6 +178,50 @@ body {
                         }
                     }
                 }
+            }
+        }
+    }
+
+    section.using-wallet {
+        padding: 80px 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        h5 {
+            font: 700 36px Nunito Sans;
+            font-family: monospace;
+            color: #161C2D;
+        }
+        div.all {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            .each {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+                border: solid 1px #000;
+                border-radius: 10px;
+                padding: 65px 25px;
+                cursor: pointer;
+                h6 {
+                    font: 700 25px Nunito Sans;
+                    font-family: monospace;
+                }
+                p {
+                    font: 400 18px Nunito Sans;
+                    font-family: monospace;
+                    text-align: center;
+                }
+            }
+            .each:hover {
+                border: unset;
+                background-color: #2A91A2;
+                color: #fff;
+                margin-right: 10px;
+                margin-left: 10px;
             }
         }
     }
