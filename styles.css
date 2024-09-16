@@ -123,6 +123,63 @@ body {
     section.what-and-who {
         padding: 50px 60px;
         background-image: url('/Images/noise_texture_bg.png');
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        div.first {
+            display: flex;
+            align-items: center;
+            gap: 70px;
+            div {
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+                h5 {
+                    font: 700 50px Nunito Sans;
+                    font-family: Abril Fatface;
+                }
+                p {
+                    font: 400 25px Nunito Sans;
+                    font-family: sans-serif;
+                    color: #031930;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+        div.second {
+            display: flex;
+            align-items: center;
+            flex-direction: row-reverse;
+            gap: 70px;
+            div {
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+                h5 {
+                    font: 700 50px Nunito Sans;
+                    font-family: Abril Fatface;
+                }
+                div {
+                    gap: 20px;
+                    p {
+                        font: 400 25px Nunito Sans;
+                        font-family: sans-serif;
+                        color: #031930;
+                        letter-spacing: 1px;
+                    }
+                    ol {
+                        margin: unset;
+                        li {
+                            font: 400 25px Nunito Sans;
+                            font-family: sans-serif;
+                            color: #031930;
+                            letter-spacing: 1px;
+                            list-style: circle;
+                        }
+                    }
+                }
+            }
+        }
     }
 
     footer {
