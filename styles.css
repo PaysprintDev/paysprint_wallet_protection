@@ -226,6 +226,30 @@ body {
         }
     }
 
+    section.launch {
+        padding: 80px 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        background-color: #FFB800;
+        h6 {
+            font: 700 32px Nunito Sans;
+            font-family: monospace;
+            color: #161C2D;
+        }
+        p {
+            font: 400 20px Nunito Sans;
+            font-family: monospace;
+            color: #161C2D;
+            text-align: center;
+            width: 70%;
+            a {
+                color: #161C2D;
+            }
+        }
+    }
+
     footer {
         padding: 60px 65px;
         background-color: #000;
