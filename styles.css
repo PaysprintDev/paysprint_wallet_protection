@@ -691,7 +691,7 @@ body {
 
 @media screen and (max-width: 600px) {
     .wallet_protection {
-
+        overflow: hidden;
         footer {
             div.first {
                 flex-direction: column;
@@ -710,9 +710,17 @@ body {
 @media screen and (max-width: 500px) {
     .wallet_protection {
         header {
+            width: 100%;
             div {
+                padding: 15px 5px;
+                img {
+                    width: 100px;
+                }
                 ul {
-                    gap: 30px;
+                    padding: unset;
+                    margin: unset;
+                    gap: 15px;
+                    justify-content: space-between;
                     li {
                         a {
                             line-height: 20px;
@@ -721,6 +729,10 @@ body {
                     }
                 }
             }
+        }
+
+        section.head {
+            width: unset;
         }
 
         section.head, section.what-and-who, section.using-wallet, section.launch {
