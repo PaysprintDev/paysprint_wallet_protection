@@ -406,6 +406,36 @@ body {
             }
         }
 
+        section.what-and-who {
+            div.first, div.second {
+                img {
+                    width: 420px;
+                }
+                div {
+                    h5 {
+                        font-size: 45px;
+                    }
+                    p {
+                        font-size: 20px;
+                    }
+                    div {
+                        p {
+                            font-size: 20px;
+                        }
+                        ol {
+                            li {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        section.using-wallet {
+            padding: 30px 60px;
+        }
+
     }
 }
 
