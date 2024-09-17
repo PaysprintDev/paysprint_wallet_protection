@@ -455,7 +455,7 @@ body {
 
         footer {
             padding: 50px;
-            width: 100%;
+            /* width: 100%; */
             div.first {
                 .links {
                     gap: 25px;
@@ -510,6 +510,44 @@ body {
                         font-size: 25px;
                     }
                 }
+            }
+        }
+
+        section.what-and-who {
+            padding: 40px;
+            gap: 20px;
+            div.first, div.second {
+                gap: 25px;
+                img {
+                    width: 300px;
+                }
+                div {
+                    h5 {
+                        font-size: 40px;
+                    }
+                    p {
+                        font-size: 18px;
+                    }
+                    div {
+                        p {
+                            font-size: 18px;
+                        }
+                        ol {
+                            li {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        section.using-wallet {
+            h5 {
+                font-size: 35px;
+            }
+            div.all {
+                grid-template-columns: repeat(2, 1fr);
             }
         }
 
@@ -575,6 +613,64 @@ body {
             }
         }
 
+        
+        section.what-and-who {
+            padding: 40px;
+            div.first, div.second {
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+                img {
+                    width: 420px;
+                }
+                div {
+                    gap: 20px;
+                    h5 {
+                        font-size: 30px;
+                    }
+                    p {
+                        font-size: 17px;
+                    }
+                    div {
+                        p {
+                            font-size: 17px;
+                        }
+                        ol {
+                            li {
+                                font-size: 17px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        section.using-wallet {
+            h5 {
+                font-size: 30px;
+            }
+            div.all {
+                grid-template-columns: repeat(1, 1fr);
+                .each {
+                    h6 {
+                        font-size: 23px;
+                    }
+                    p {
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+
+        section.launch { 
+            h6 {
+                font-size: 30px;
+            }
+            p {
+                width: unset;
+            }
+        }
+
         footer {
             padding: 30px;
             div.first {
@@ -625,6 +721,10 @@ body {
                     }
                 }
             }
+        }
+
+        section.head, section.what-and-who, section.using-wallet, section.launch {
+            padding: 30px;
         }
 
         footer {
