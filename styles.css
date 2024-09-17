@@ -434,6 +434,16 @@ body {
 
         section.using-wallet {
             padding: 30px 60px;
+            div.all {
+                .each {
+                    padding: 35px 25px;
+                }
+            }
+        }
+
+        section.launch {
+            margin-top: 20px;
+            padding: 50px 30px;
         }
 
     }
