@@ -31,7 +31,7 @@ body {
             justify-content: space-between;
             align-items: center;
             img {
-                width: 180px;
+                width: 95px;
             }
             ul {
                 list-style: none;
@@ -265,8 +265,8 @@ body {
             .img-links {
                 flex: 0 0 30%;
                 .footer-logo {
-                    width: auto;
-                    height: 65px;
+                    width: 202px;
+                    height: 190px;
                 }
                 div {
                     padding: 5px 35px;
@@ -477,11 +477,6 @@ body {
 
 @media screen and (max-width: 900px) {
     .wallet_protection {
-        header {
-            div {
-                justify-content: unset;
-            }
-        }
 
         section.head {
             gap: unset;
@@ -569,9 +564,10 @@ body {
     .wallet_protection {
         header {
             div {
-                padding: 15px 20px;
+                padding: 10px;
                 ul {
                     gap: 35px;
+                    padding-inline-start: 0px;
                 }
             }
         }
